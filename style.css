@@ -24,13 +24,12 @@ section {
 
 span {
 	padding-left: 250px;
-	display: inline;
+	display: block;
 	position: relative;
 	float: right;
 }
 
 #accordian {
-	display: flex;
 	text-align: center;
 	margin-top: 75px;
 }
