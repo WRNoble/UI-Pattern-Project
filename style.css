@@ -1,6 +1,7 @@
 html {
 	font-size: 12px;
 	margin-top: 0px;
+	padding-top: 0px;
 }
 
 header {
@@ -29,6 +30,7 @@ span {
 }
 
 #accordian {
+	display: flex;
 	text-align: center;
 	margin-top: 75px;
 }
