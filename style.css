@@ -13,8 +13,8 @@ header {
 section {
 	background-color: grey;
 	color: white;
-	margin-left: 450px;
-	margin-right: 450px;
+	margin-left: 375px;
+	margin-right: 375px;
 	/*padding: 10px 5px 10px 5px;*/
 	padding-left: 25px;
 	display: flex;
@@ -24,11 +24,12 @@ section {
 span {
 	padding-left: 250px;
 	display: inline;
+	position: relative;
 	float: right;
 }
 
-#center {
+#accordian {
 	text-align: center;
-	margin-top: 275px;
+	margin-top: 75px;
 }
 
