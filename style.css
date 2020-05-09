@@ -29,6 +29,10 @@ span {
 	float: right;
 }
 
+p {
+	display: block;
+}
+
 #accordian {
 	text-align: center;
 	margin-top: 75px;
