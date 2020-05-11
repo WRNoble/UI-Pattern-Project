@@ -13,3 +13,7 @@ A computer with a good Internet connection all that is needed.
 ##Location
 
 This project can be found at github pages.
+
+##Author
+
+William Noble
