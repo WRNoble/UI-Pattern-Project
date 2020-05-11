@@ -1,6 +1,7 @@
 const starWarsApiUrl = 'https://swapi.dev/api/people'
 let unorderedList = document.querySelector('#accordion')
 
+
 fetch(starWarsApiUrl)
 	.then(res => res.json())
 	.then(data => {
@@ -27,11 +28,17 @@ fetch(starWarsApiUrl)
 			
 
 
-			listItem.addEventListener('click', () => {
-				container.classList.toggle('hidden')
-				for (let i = 0; i <= 10; i++) {
-					
-				}
-			})
+			
+			
+					listItem.addEventListener('click', () => {
+						let store = document.querySelectorAll('.loop')
+						store.forEach(element => {
+							element.classList.add('hidden')
+						})
+						container.classList.toggle('hidden')
+					})
+			
 		})
+		
+	
 	})
