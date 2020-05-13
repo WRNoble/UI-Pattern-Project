@@ -4,6 +4,9 @@ let unorderedList = document.querySelector('#accordion')
 
 fetch(starWarsApiUrl)
 	.then(res => res.json())
+	.catch(error => {
+		 	console.log("there has been a disturbance in the force")
+			})
 	.then(data => {
 		data.results.forEach(character => {
 			let listItem = document.createElement('li')
@@ -26,7 +29,7 @@ fetch(starWarsApiUrl)
 			container.appendChild(gender)
 			unorderedList.appendChild(listItem)
 			
-
+			
 
 			
 			
