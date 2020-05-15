@@ -42,9 +42,7 @@ section1.addEventListener('click', function(e){
 				}
 			})
 		})
-		// .catch(error => {
-		// 	console.log("there has been a disturbance in the force")
-		// })
+		
 })
 
 

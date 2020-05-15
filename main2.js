@@ -1,12 +1,10 @@
-const starWarsApiUrl = 'https://swapi.dev/api/people'
+const starWarsApiUrl = 'http://swapi.dev/api/people/'
 let unorderedList = document.querySelector('#accordion')
 
 
 fetch(starWarsApiUrl)
 	.then(res => res.json())
-	.catch(error => {
-		 	console.log("there has been a disturbance in the force")
-			})
+	
 	.then(data => {
 		data.results.forEach(character => {
 			let listItem = document.createElement('li')
@@ -29,9 +27,9 @@ fetch(starWarsApiUrl)
 			container.appendChild(gender)
 			unorderedList.appendChild(listItem)
 			
-			
-
-			
+	.catch(error => {
+		console.log("there has been a disturbance in the force")
+	})
 			
 					listItem.addEventListener('click', () => {
 						let store = document.querySelectorAll('.loop')
